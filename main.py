@@ -17,9 +17,9 @@ app_mode = st.sidebar.selectbox("Select Page", ["Home", "About", "Disease Recogn
 
 # Main Page
 if app_mode == "Home":
-    st.header("COTTON CROP DISEASE RECOGNITION SYSTEM")
+    st.header("PLANT DISEASE RECOGNITION SYSTEM")
     image_path = "Home_page.jpg"
-    st.image(image_path, use_column_width=True)
+    st.image(image_path, use_container_width=True)
     st.markdown("""
     Welcome to the Cotton Leaf Disease Detection System! 🌿🔍
     
